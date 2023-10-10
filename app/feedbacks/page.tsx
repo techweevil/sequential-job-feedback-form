@@ -43,7 +43,7 @@ const FeedBack = ({
   );
 };
 
-const Feedbacks = () => {
+const Page = () => {
   const [feedbacks, setFeedbacks] = useState([]) as any[];
   const _ref = collection(db, "sequential-job-feedbacks");
 
@@ -76,4 +76,4 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks;
+export default Page;
