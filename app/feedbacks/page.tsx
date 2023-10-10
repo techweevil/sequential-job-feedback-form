@@ -58,7 +58,7 @@ const Feedbacks = () => {
       console.log(feedbacks);
     };
     getFeedbacks();
-  }, []);
+  }, [_ref]);
 
   return (
     <div className="m-auto flex align-middle items-center justify-center">
